@@ -62,6 +62,7 @@ global.debug = false;
             <string>/// Captura de velocidad de movimiento
 if (global.pause){ //Instancia de pausa
     exit
+    image_speed = 0
     }
 vv = 0; //Velocidad vertical
 vh = 0; //Velocidad horizontal

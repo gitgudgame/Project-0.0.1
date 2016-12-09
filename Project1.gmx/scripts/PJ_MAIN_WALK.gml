@@ -1,7 +1,6 @@
 //Sprites de movimiento
 image_speed = 1
 if (image_index == 0) image_index++;
-
 switch(dir){
    case "down":
        sprite_index = SPR_PJ_MAIN_DOWN
@@ -16,5 +15,4 @@ switch(dir){
        sprite_index = SPR_PJ_MAIN_LEFT
        break;
 }
-
 
