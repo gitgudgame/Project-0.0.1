@@ -27,12 +27,7 @@
             <kind>1</kind>
             <string>global.pause = false;
 depth = -10000
-//To do: stop animations when pause.
-with(all)
-{
-    anim_speed = image_speed;
-    image_speed = 0;
-}
+
 </string>
           </argument>
         </arguments>
@@ -97,6 +92,10 @@ else
     {
     global.pause = false
     }
+    //To do: stop animations when pause.
+if (global.pause = true)  {
+    image_speed = 0
+}
 </string>
           </argument>
         </arguments>
