@@ -31,6 +31,7 @@
       <sprite>sprites\sprite17</sprite>
     </sprites>
     <sprite>sprites\sprite18</sprite>
+    <sprite>sprites\SPR_Warp</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\BCK_Menu__Main</background>
@@ -41,6 +42,7 @@
     <background>background\background5</background>
     <background>background\background6</background>
     <background>background\background7</background>
+    <background>background\background8</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -77,6 +79,7 @@
     </objects>
     <object>objects\OBJ_SAVE</object>
     <object>objects\OBJ_Pausa</object>
+    <object>objects\Obj_Warp</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Main Menu">
@@ -86,6 +89,7 @@
       <room>rooms\MM_SALIR</room>
     </rooms>
     <room>rooms\room0</room>
+    <room>rooms\room5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
